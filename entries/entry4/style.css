@@ -1,0 +1,60 @@
+/* Here is a sample CSS file. */
+
+@charset "UTF-8";
+
+
+
+  @font-face {
+    font-family: "EpiceneDisplay";
+    src: url(../entry4/media/fonts/TestEpiceneDisplay/test-epicene-display-medium-italic.woff2) format("woff2");  
+ }
+
+ @font-face {
+    font-family: "EpiceneText";
+    src: url(../entry4/media/fonts/TestEpiceneText/test-epicene-text-regular.woff2); format:("woff2");
+ }
+
+ @font-face {
+    font-family: "EpiceneBold";
+    src: url(../entry4/media/fonts/TestEpiceneText/test-epicene-text-bold.woff2); 
+    format:("woff2");  
+ }
+
+ @font-face {
+    font-family: "EpiceneItalic";
+    src: url(../entry4/media/fonts/TestEpiceneText/test-epicene-text-regular-italic.woff2); 
+    format:("woff2");  
+ }
+
+ #myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+
+
+.marquee {
+    font-family: "EpiceneDisplay", serif;
+    font-size: 200pt;
+    color: white;
+}   
+
+h1{
+    font-family: "EpiceneText", serif;
+    font-size: 90px;
+    color: azure;
+    text-align: left;
+}
+
+
+.flex-container > div {
+    background-color: green;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+

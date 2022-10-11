@@ -1,0 +1,83 @@
+body
+    {background-color:beige;}
+
+
+header { 
+    background-color: maroon;
+    text-align: center;
+}
+
+h1 { 
+    font-family: 'servus slab', Times, serif;
+    font-size: 48pt;
+    color: white;
+    
+}
+h2 {
+    font-family: 'servus slab', Times, serif;
+    font-size: 40pt;
+    line-height: 60%;
+    color: maroon;
+    text-shadow: -2px 2px rgb(255, 212, 142);
+}
+
+h3 {
+    font-family: 'servus slab', Times, serif;
+    font-size: 30pt;
+    line-height: 10%;
+    font-style: italic;
+    font-weight: 500;
+
+}
+
+h4 {
+    font-family: 'IBM Plex Sans', 'verdana', sans-serif;
+}
+
+h5 { 
+    font-family: 'servus slab', Times, serif;
+    font-style: italic;
+    font-weight: lighter;
+    color: coral;
+    font-size: 24pt;
+
+}
+article {
+    float: center;
+    padding: 20px;
+    width: 70%;
+    background-color: #f1f1f1;
+}
+
+p {
+    font-family: 'IBM Plex Sans', 'verdana', sans-serif;
+    text-align: justify;
+}
+img { 
+    width: 30%;
+    float: left;
+    padding: 50px;
+}
+
+.right-image {
+    width: 30%;
+    float: right;
+    padding: 50px;
+}
+
+
+footer {
+    position:fixed;
+    left:50px;
+    bottom:0px;
+    width:100%;
+    padding-top:15px;
+    padding-bottom:15px;
+    text-align:left;
+    font-size: 24px;
+    font-style: oblique;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-variant: small-caps;
+    font-weight: bold;
+}
+

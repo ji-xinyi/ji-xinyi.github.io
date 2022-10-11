@@ -1,0 +1,109 @@
+/* Here is a sample CSS file. */
+
+@charset "UTF-8";
+
+body {
+    background-image: url(../entry5/media/imgs/background.JPG);
+    background-position: center;   
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: navy;
+
+}
+
+h1 {
+    font-family: servus-slab, serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 126pt;
+    color: blanchedalmond;
+    -webkit-text-stroke: 4pt;
+    -webkit-text-stroke-color: maroon;
+    text-align: center;
+    line-height: 0.5;
+}
+
+marquee { 
+    font-family: servus-slab, serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 80pt;
+    color: maroon;
+ 
+}
+
+h2 {
+    font-family: servus-slab, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 28pt;
+    color: blanchedalmond; 
+    text-align: center;
+}
+
+h3 {
+    font-family: 'servus slab', Times, serif;
+    font-size: 30pt;
+    font-style: italic;
+    font-weight: 500;
+    color: antiquewhite;
+
+}
+
+h5 { 
+    font-family: 'servus slab', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    color: coral;
+    font-size: 24pt;
+
+}
+
+p {
+    font-family: 'IBM Plex Sans', 'verdana', sans-serif;
+    text-align: justify center;
+    font-size: 24pt;
+    color: maroon;
+    background-color: blanchedalmond;
+    width: 70%;
+    
+}
+img { 
+    width: 30%;
+    padding: 50px;
+    position: left;
+    margin: 50px;
+}
+
+img:hover{
+    background-color: brown;
+}
+
+.img-top { 
+    width: 30%;
+    padding: 50px;
+    position:left;
+    margin: 50px;
+}
+
+.zed {
+    width: 30%;
+    float: left;
+    padding: 50px;
+        margin: 50px;
+}
+
+.zed-video {
+    display: none;
+        position: absolute;
+        width: 30%;
+        float: left;
+        padding: 50px;
+        z-index: 99;
+}
+
+.zed:hover .zed-video { 
+    background-color: aquamarine;
+    
+}
+

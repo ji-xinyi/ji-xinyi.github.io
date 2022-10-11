@@ -1,0 +1,175 @@
+/* Here is a sample CSS file. */
+
+@charset "UTF-8";
+
+body {
+      background-image: url("../entry3/media/imgs/background.JPG");    
+        background-position: center;
+}
+
+h1  span {
+         font-family: 'Sansita Swashed', cursive ;
+        font-size: 40px ;
+        transform-origin: bottom;
+        height: 200px;
+        position: fixed;
+        text-align: right;
+        width: 50px;
+        color: azure;
+        }
+        .c1 {
+        transform: rotate(12deg);
+        }
+        .c2 {
+        transform: rotate(24deg);
+        }
+        .c3 {
+        transform: rotate(36deg);
+        }
+        .c4 {
+        transform: rotate(48deg);
+        }
+        .c5 {
+        transform: rotate(72deg);
+        }
+        .c6 {
+        transform: rotate(84deg);
+        }
+
+h2{
+    font-family:'Sansita Swashed', cursive ;
+    font-size: 40pt;
+    text-align: center;
+    color: azure;
+    font-stretch: semi-expanded;
+    text-shadow: 2px 2px 2px black;
+}
+
+
+h3 { 
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 24pt;
+    text-align: center;
+    color: azure;
+
+}
+
+h4{
+    font-family: 'Caveat', cursive;
+    font-size: 18pt;
+    text-align: center;
+    color: rgb(3, 22, 78);
+
+}
+
+h5 {
+    font-family: 'Caveat', cursive;
+    text-align: center; 
+    padding-top: 50px;
+    font-size: 25px; 
+    color: rgb(255, 221, 174);
+}
+/* Apply the translate and rotate transformation
+   for our text to look curved  */
+
+.g1 {
+    transform: translate(20px, 85px) rotate(-30deg);
+}
+
+.g2 {
+    transform: translate(13px, 60px) rotate(-25deg);
+}
+
+.g3 {
+    transform: translate(6px, 40px) rotate(-20deg);
+}
+
+.g4 {
+    transform: translate(3px, 23px) rotate(-15deg);
+}
+
+.g5 {
+    transform: translate(2px, 14px) rotate(-10deg);
+}
+
+.g6 {
+    transform: translate(1px, 8px) rotate(-5deg);
+}
+
+.g7 {
+    transform: translate(0px, 5px) rotate(0deg);
+}
+
+.g8 {
+    transform: translate(-1px, 8px) rotate(5deg);
+}
+
+.g9 {
+    transform: translate(-2px, 14px) rotate(10deg);
+}
+
+.g10 {
+    transform: translate(-3px, 25px) rotate(15deg);
+}
+
+.g11 {
+    transform: translate(-6px, 40px) rotate(20deg);
+}
+
+.g12 {
+    transform: translate(-14px, 60px) rotate(25deg);
+}
+
+.g13 {
+    transform: translate(-20px, 80px) rotate(30deg);
+}
+.g4 {
+    transform: translate(-26px, 90px) rotate(35deg);
+}
+
+.g15 {
+    transform: translate(-30px, 100px) rotate(40deg);
+}
+
+.g16 {
+    transform: translate(-36px, 110px) rotate(45deg);
+}
+
+.g17 {
+    transform: translate(-42px, 120px) rotate(50deg);
+}
+
+.g18 {
+    transform: translate(-48px, 130px) rotate(60deg);
+}
+
+.g19 {
+    transform: translate(-50px, 140px) rotate(65deg);
+}
+
+.g20 {
+    transform: translate(-55px, 150px) rotate(70deg);
+}
+
+.g21 {
+    transform: translate(-60px, 160px) rotate(75deg);
+}
+.g22 {
+    transform: translate(-66px, 170px) rotate(80deg);
+}
+
+/* An inline-block element is placed as an inline
+ element (on the same line as adjacent content), 
+ but it behaves like a block element  */
+
+span {
+    display: inline-block;
+}
+
+
+img {
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
