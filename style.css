@@ -1,37 +1,264 @@
-h1 { 
-    font-family: 'servus slab', Times, serif;
-    font-size: 60pt;
-    color: antiquewhite;
-    text-align: center;
+/* Here is a sample CSS file. */
+
+@charset "UTF-8";
+body{
+    overflow-x:scroll;
+    background-color: black;
 }
 
-body {
-    background-color: maroon;
+.flex-container{
+    flex-direction: row;
+    align-items: center;
+
+}
+   .announcement {
+    font-family: multi-display, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 40px;
+    text-align: center;
+    overflow-x: scroll;
+    width: 1300px;
+    margin: 10px; 
+    background-color: black;
+   }
+
+h1 {
+    color: crimson;
+    
+}
+.blink {
+    animation: blink-animation 1s steps(5, start) infinite;
+    -webkit-animation: blink-animation 1s steps(5, start) infinite;
+  }
+  @keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
+  @-webkit-keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
   }
 
-.title { 
-    color: antiquewhite;
-    font-family: 'servus slab', Times, serif;
+h2{
+    color: blanchedalmond;
     text-align: center;
-/* unvisited link */
-a:link {
-    color: antiquewhite;
+}
+.bouncing-text {
+    display: flex;
+    color: blanchedalmond;
+    font-size: 80px;
   }
-  
-  /* visited link */
-  a:visited {
-    color: palegoldenrod;
-  }
-  
-  /* mouse over link */
-  a:hover {
-    color: honeydew;
-  }
-  
-  /* selected link */
-  a:active {
-    color: lightcyan;
-  }
+  @keyframes bounce {
+    0%   { transform: scale(1,1) translateY(0); }
+    10%  { transform: scale(1.1,.9) translateY(0); }
+    30%  { transform: scale(.9,1.1)   translateY(-55px);}
+    50%  { transform: scale(1.05,.95) translateY(0); }
+    58%  { transform: scale(1,1) translateY(-7px); }
+    65%  { transform: scale(1,1) translateY(0);}
+    100% { transform: scale(1,1) translateY(0);}
 }
 
+.e {
+animation: bounce 1s ease infinite;
+}
 
+.n {
+animation: bounce 1s ease infinite .1s;
+}
+
+.j {
+animation: bounce 1s ease infinite .2s;
+}
+
+.o {
+animation: bounce 1s ease infinite .3s;
+}
+
+.y {
+animation: bounce 1s ease infinite .4s;
+}
+
+.punctuation {
+animation: bounce 1s ease infinite .5s;
+}
+
+.maple {
+    display: flex;
+    flex-direction: column;
+    width: 1500px;
+    background-color: red;
+}
+.maple h3 {
+    font-family: maple-web, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: black;
+    font-size: 30px;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 10px; 
+}
+
+.maple marquee {
+    font-family: maple-web, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: black;
+    font-size: 60px;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+    width: 40%;
+}
+
+.maple-story {
+    padding: 20px;
+    display: none;
+    font-family: maple-web, sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    font-style: normal;
+    color: yellow;
+    text-align: left;
+    background-color: darkblue;
+    padding-right: 120px;
+}
+
+span:hover + .maple-story {
+    display: block;}
+
+
+.cloud {
+    display: flex;
+    flex-direction: column;
+    width: 1500px;
+    background-color: skyblue;
+    }
+
+
+.cloud marquee { 
+    font-family: manteiga-gorda, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    color: skyblue;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+}
+
+.cloud h3  {
+    font-family: manteiga-gorda, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: white;
+    padding-left: 20px;
+}
+
+.cloud-story {
+    padding: 20px;
+    display: none;
+    font-family: servus-slab, serif;
+    font-weight: 400;
+    font-style: normal;
+font-size: 24px;
+color: honeydew;
+background-color: olivedrab;
+padding-right: 120px;
+}
+
+span:hover + .cloud-story {
+    display: block;}
+
+
+.bonnie-and-clyde {
+ 
+        display: flex;
+        flex-direction: column;
+        width: 1500px;
+        background-color: goldenrod;
+        }
+
+.bonnie-and-clyde marquee {
+    font-family: beastly, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    color: antiquewhite;
+    padding-top: 10px;
+    }
+
+.bonnie-and-clyde h3 {
+    font-family: beastly, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: antiquewhite;
+    padding-left: 20px;
+}
+
+.bonnie-clyde-story {
+    padding: 20px;
+    display: none;
+    font-family: multi-display, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    background-color: rebeccapurple;
+    color: sandybrown;
+    padding-right: 120px;
+}
+
+span:hover + .bonnie-clyde-story {
+    display: block;}
+
+.marley { 
+    background-color: peachpuff;
+    display: flex;
+    flex-direction: column;
+    width: 1500px;
+}
+
+.marley marquee { 
+    font-family: bello-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    color: cornflowerblue;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: white;
+}
+
+.marley h3 {
+    font-family: bello-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    color: cornflowerblue;
+    padding-left: 20px;
+}
+
+.marley-story { 
+    padding: 20px;
+    display: none;
+    font-family: servus-slab, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    color: lightblue;
+    background-color: palevioletred;
+    padding-right: 120px;
+
+}
+
+span:hover + .marley-story {
+    display: block;}
